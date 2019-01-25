@@ -7,6 +7,10 @@ body {
   color: #ffffff;
 }
 
+.msg {
+  padding: 5px;
+}
+
 .fields {
   border: 1px solid #666666;
   padding: 5px;
@@ -27,6 +31,18 @@ body {
   padding: 5px;
 }
 
-.match > * {
-  margin-right: 5px;
+.stats > table * {
+  padding: 5px;
+}
+
+.stats > table th {
+  background-color: #000033;
+}
+
+.stats > table .win {
+  background-color: #006600;
+}
+
+.stats > table .fail {
+  background-color: #660000;
 }
