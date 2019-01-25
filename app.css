@@ -1,0 +1,32 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.fields {
+  border: 1px solid #666666;
+  padding: 5px;
+}
+
+.fields > * {
+  margin-right: 5px;
+}
+
+.errorText {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.stats {
+  border: 1px solid #666666;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.match > * {
+  margin-right: 5px;
+}
